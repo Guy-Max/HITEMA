@@ -9,3 +9,4 @@ app = FastAPI()
 @app.get("/")
 async def test():
     return {"message": "OK"}
+    
